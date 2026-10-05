@@ -1,16 +1,7 @@
 ---
-__cgxx: |
-  # vim:set expandtab shiftwidth=2 filetype=markdown foldlevel=3:
-  # SPDX-License-Identifier: GPL-3.0-only
-
-  #
-  #
-  # ~chewygumxx/learn-node.git
-  # ::: :/README.md
-  #
-  #
-
 ctime: 2026-09-30
+mtime: 2026-10-05
+spdx: GPL-3.0-only
 title: "learn-node"
 description: "My Node and NPM learning playground"
 tags:
@@ -19,6 +10,13 @@ tags:
   - learn
   - hello-world
 ---
+
+<!--
+   -
+   - ~chewygumxx/learn-node.git
+   - ::: :/README.md
+   -
+   -->
 
 # learn-node
 
@@ -44,3 +42,5 @@ sync pushed.
 
 The pre-commit hook runs the same checks on staged files, and rejects em dashes.
 The commit-msg hook runs commitlint.
+
+<!-- vim:set expandtab shiftwidth=2 filetype=markdown foldlevel=3: -->
